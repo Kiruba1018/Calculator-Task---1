@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator App</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <div class="main-container">
+
+    <!-- Input Fields -->
+    <section class="input-fields">
+      <form>
+        <input type="number" id="value-1" placeholder="Enter Number 1">
+        <input type="number" id="value-2" placeholder="Enter Number 2">
+      </form>
+    </section>
+
+    <!-- Creation of Buttons -->
+    <section class="sub-container">
+      <section class="math-btn">
+        <button onclick="Add()">+</button>
+        <button onclick="Sub()">-</button>  
+        <button onclick="Mul()">*</button>
+        <button onclick="Div()">/</button>
+        <button onclick="Mod()">%</button>
+      </section>
+
+      <!-- For Showing the output -->
+      <section>
+        <div id="output-field">
+
+        </div>
+      </section>
+    </section>
+
+
+  </div>
+  <script src="/script.js"></script>
+</body>
+</html>

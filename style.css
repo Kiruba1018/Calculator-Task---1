@@ -1,0 +1,78 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+}
+
+.main-container{
+  height: 25rem;
+  width: 50vh;
+  background-color: rgb(0, 0, 0);
+  margin-top: 10rem;
+  padding: 10px;
+  border-radius: 2rem;
+  
+}
+.input-fields{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-fields input{
+  display: block;
+  width: 20rem;
+  height: 3rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  border: none;
+  padding: 5px;
+
+}
+.sub-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.math-btn{
+  display: grid;
+  grid-template-rows: repeat(3,1fr);
+  grid-template-columns: repeat(3,1fr);
+}
+.math-btn button{
+  margin-top: 2rem;
+  margin-right: 2rem;
+  padding: 12px;
+  font-size: 1.5rem;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 12px;
+
+}
+form :hover{
+  background-color: gray;
+  transition: .3s;
+}
+.math-btn :hover{
+  background-color: gray;
+  color: black;
+  transition: .3s;
+}
+#output-field{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100px;
+  width: 100px;
+  background-color: white;
+  font-size: 1.1rem;
+  border-radius: 1.5rem;
+  padding: 10px;
+
+}
+
